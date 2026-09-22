@@ -53,7 +53,8 @@ window.ZAMORA_LAB_DATA = {
       goal: "Connect CAR-T phenotype, polyfunctionality, cytotoxicity, and transcriptional state with treatment response while developing improved engineering strategies.",
       details: "Longitudinal studies use single-cell functional profiling at key points during CAR-T manufacture and in-vivo expansion. The lab compares responder and non-responder products, studies how manufacturing conditions influence cell state, and develops experimental and computational approaches to improve next-generation CAR constructs.",
       image: "images/car-t-il7-il15-workflow.webp",
-      imageAlt: "Workflow schematic for CAR-T cell biology and engineering studies",
+      imageAlt: "CAR-T manufacturing under IL-7/IL-15 versus IL-2 — cell separation, activation, transduction, expansion, and product — with assessments of phenotype, function, and transcriptional profile at day 0, day 14, and day 28",
+      wide: true,
       tags: ["CAR-T", "Single-cell function", "Cell engineering", "Clinical response"]
     },
     {
