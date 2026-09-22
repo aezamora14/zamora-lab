@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aezamora14.github.io/zamora-lab/sitemap.xml
