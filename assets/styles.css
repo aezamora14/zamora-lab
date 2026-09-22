@@ -187,7 +187,8 @@ p { margin: 0 0 1em; }
 .research-media img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; padding: 10px; background: #fff; transition: transform .4s var(--ease); }
 .research-item.wide .research-media img { aspect-ratio: 16 / 5; }
 .research-media button:hover img { transform: scale(1.02); }
-.research-media figcaption { position: absolute; right: 12px; bottom: 12px; background: rgba(10,30,58,.85); color: #fff; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 6px 10px; border-radius: 999px; pointer-events: none; }
+.research-media figcaption { display: flex; justify-content: flex-end; margin-top: 10px; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--navy-3); pointer-events: none; }
+.research-media figcaption::before { content: "⤢"; margin-right: 6px; font-size: .9rem; line-height: 1; }
 .research-placeholder { aspect-ratio: 4 / 3; border-radius: var(--r-md); background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); display: grid; place-items: center; color: var(--gold-light); position: relative; overflow: hidden; }
 .research-placeholder svg { width: 46%; height: auto; opacity: .9; }
 .research-placeholder::after { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.08) 1px, transparent 1px); background-size: 18px 18px; }
